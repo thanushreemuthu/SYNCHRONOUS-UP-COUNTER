@@ -26,6 +26,11 @@ Since the first (LSB) flip-flop needs to toggle at every clock pulse, its J and 
 The next flip-flop need only “recognize” that the first flip-flop’s Q output is high to be made ready to toggle, so no AND gate is needed.
 However, the remaining flip-flops should be made ready to toggle only when all lower-order output bits are “high,” thus the need for AND gates.
 
+**Truth table**
+
+![exp11 image](https://github.com/user-attachments/assets/9b984804-3a4d-47ee-a305-ed59b3192154)
+
+
 **Procedure**
 
 1. Type the program in Quartus software.
